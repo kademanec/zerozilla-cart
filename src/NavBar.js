@@ -9,7 +9,7 @@ const Nav = ()=>{
             <ul className = "list-items">
                 <div className="list-item"><a href={"/"}>Home</a></div>
                 <div className="list-item"><a href="#">Cart</a></div>
-                <div className="list-item"><a href="#">Product Details</a></div>
+                <div className="list-item"><a href={"/Products"}>Products </a></div>
                 <div className="list-item"><a href="#">Profile</a></div>
                 
             </ul>
