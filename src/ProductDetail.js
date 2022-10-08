@@ -1,9 +1,8 @@
 import { useState,useEffect } from "react";
-import {useParams} from 'react-router-dom';
 import Nav from './NavBar';
 import { useLocation } from 'react-router-dom';
 import { FaShoppingCart } from 'react-icons/fa';
-import CartCount from "./Cart";
+
 const ProductDetail = ()=>{
    const [details,setDetails]= useState([]);
    const [count,setCount]=useState(0);
